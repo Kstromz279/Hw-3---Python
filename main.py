@@ -8,7 +8,7 @@ def digit_sum(n):
 def run():
   digits = input("Enter an int: ")
   digits = int(digits)
-  print(f"sum of digits {digits} is {digit_sum(digits)}.")
+  print(f"sum of digits of {digits} is {digit_sum(digits)}.")
 
 if __name__ == "__main__":
   run()
