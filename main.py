@@ -1,7 +1,7 @@
 # Author: Khalil Stroman kzs5955@psu.edu
 def digit_sum(n):
   if n > 0:
-    return n%10 + int(digit_sum(n/10))
+    return n%10 + int(digit_sum(n//10))
   else: 
     return 0
 
